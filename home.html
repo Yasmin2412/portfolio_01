@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Yasmin</div>
+    <input type="checkbox" id="toggle-menu" class="toggle-menu">
+    <label for="toggle-menu" class="hamburger-menu">☰</label>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+ 
+  <section id="welcome" class="welcome-section">
+    <div class="welcome-content">
+        <div class="welcome-text">
+            <h1>
+              <span class="highlight">Hello,</span> I'm <strong>Yasmin Khan</strong>
+            </h1>
+            <p class="welcome-description">
+              A passionate <span class="highlight">MERN Stack Developer</span> dedicated to creating seamless and innovative web experiences.
+            </p>
+            <div class="action-buttons">
+              <a href="#hire-me" class="btn hire-me-btn">Hire Me</a>
+              <div class="social-icons">
+                <a href="https://github.com/Yasmin2412" target="_blank" title="GitHub" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" title="LinkedIn" class="social-link">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/in/your-profile" target="_blank" title="LinkedIn" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://facebook.com/in/your-profile" target="_blank" title="LinkedIn" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                
+              </div>
+            </div>
+          </div>
+          
+      <div class="welcome-avatar">
+        <img src="/portfolio/image.jpg" alt="Avatar" class="avatar-image">
+      </div>
+    </div>
+  </section>
+  <!-- skills section -->
+  
+  <section id="skills" class="skills-section">
+    <h2>Skills </h2>
+    <div class="skills-container">
+      <div class="skills-info">
+        <h2>Professional Skills</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="skills-list">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+            <div class="skill-name">
+              <h3>HTML5</h3>
+              <div class="progress-container">
+                <div class="progress-bar" style="width: 98%"></div>
+                <span class="percentage">98%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+            <div class="skill-name">
+              <h3>CSS3</h3>
+              <div class="progress-container">
+                <div class="progress-bar" style="width: 85%"></div>
+                <span class="percentage">85%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+            <div class="skill-name">
+              <h3>JAVASCRIPT</h3>
+              <div class="progress-container">
+                <div class="progress-bar" style="width: 65%"></div>
+                <span class="percentage">65%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-paint-brush"></i>
+            <div class="skill-name">
+              <h3>UX/UI</h3>
+              <div class="progress-container">
+                <div class="progress-bar" style="width: 86%"></div>
+                <span class="percentage">86%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-image">
+        <img src="https://img.freepik.com/free-vector/colourful-illustration-female-programmer-doing-her-job_23-2148270747.jpg?ga=GA1.1.2058699848.1733317979" alt="Professional Skills Image">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <h2> Projects</h2>
+    <div class="project-list">
+      <!-- Weather API Project -->
+      <div class="project-item">
+        <img src="/portfolio/weather.webp" alt="Weather API App" class="project-image">
+        <div class="project-content">
+          <h3>Weather API App</h3>
+          <p>A web app that fetches real-time weather data using external APIs. This project showcases API integration and responsive design.</p>
+          <a href="https://github.com/Yasmin2412/Weather-Api" target="_blank" class="btn project-link">View on GitHub</a>
+        </div>
+      </div>
+  
+      <!-- To-Do App Project -->
+      <div class="project-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOWyHdbqvTH8Xs9WD2wSgNOifWuAzfTMkEoQ&s" alt="To-Do App" class="project-image">
+        <div class="project-content">
+          <h3>To-Do App</h3>
+          <p>A basic to-do app built to organize tasks efficiently. It includes features like task addition, deletion, and visual enhancements.</p>
+          <a href="https://github.com/Yasmin2412" target="_blank" class="btn project-link">View on GitHub</a>
+        </div>
+      </div>
+      
+      <div class="project-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9n0nueBQRPIMQJhlp7iSlJuqdZqz969fDgA&s" alt="Vision Pro Clone" class="project-image">
+        <div class="project-content">
+          <h3>Vision Pro Clone</h3>
+          <p>A UI/UX clone of Apple Vision Pro, demonstrating advanced HTML and CSS design skills with a focus on animations and responsiveness.</p>
+          <a href="https://github.com/Yasmin2412/Apple-vision-Pro" target="_blank" class="btn project-link">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- contact me section  -->
+ <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p>If you'd like to get in touch, feel free to reach out via any of my social media links!</p>
+        <div class="social-icons">
+            <a href="https://github.com/Yasmin2412" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/Yasmin-Khan" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/your_instagram_handle" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/your_facebook_handle" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+    
+
+
+
+ 
+</body>
+</html>
